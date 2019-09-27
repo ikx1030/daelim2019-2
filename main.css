@@ -1,9 +1,9 @@
 /*
  * main.css v0.3.0
- * Update: 2019.09.20
- * Author: DongWook.Synn
+ * Update: 2019.09.27
+ * Author: YungHyeok.Synn
  */
-
+ 
  /* main menu */
  ul {
     background: rgb(49, 49, 49);
@@ -40,6 +40,47 @@
     height: 300px;
     padding: 15px;
   }
+
+  .article-2nd-bg {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 300px;
+    padding: 15px;
+  }
+
+  .image-cropper-50{
+      height: 200px;
+      margin: 15px;
+      width: 200px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%;
+  }
+
+  .image-cropper-25{
+    height: 200px;
+    margin: 15px;
+    width: 200px;
+    -webkit-border-radius: 25%;
+    -moz-border-radius: 25%;
+    -ms-border-radius: 25%;
+    -o-border-radius: 25%;
+    border-radius: 25%;
+    }
+
+    .image-cropper-5{
+        height: 200px;
+        margin: 15px;
+        width: 200px;
+        -webkit-border-radius: 5%;
+        -moz-border-radius: 5%;
+        -ms-border-radius: 5%;
+        -o-border-radius: 5%;
+        border-radius: 5%;
+    }
   
   /* margin, padding, border test */
   .box-test {
