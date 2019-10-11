@@ -17,16 +17,35 @@
   <link href="https://fonts.googleapis.com/css?family=Cute+Font&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>Header Area</header>
+  <header class="full-bg">
+    <div class="container">
+      <div class="header-title">
+      Yang Yun Hyeok 홈페이지
+      <p class="header-sub-title">
+        양윤혁의 홈페이지 입니다.
+        2019년 2학기 실습 내용을 정리했습니다.
+      </p>
+      <br/>
+      <br/>
+      <a class="ghost-button" href="#">Ghost button text</a>
+    </div>
+    </div>
+  </header>
 <!-- ul-li를 이용한 메인 메뉴 -->
-  <nav class="menu-font">
+  <nav class="menu-font menu">
     <ul>
       <li class="home-title">양 윤혁</li>
-      <li><a href="#">메뉴1</a></li>
-      <li><a href="#">메뉴2</a></li>
-      <li><a href="#">메뉴3</a></li>
-      <li><a href="#">메뉴4</a></li>
-      <li><a href="#">메뉴5</a></li>
+      <li><a href="#">메뉴1</a>
+        <ul>
+            <a href="1">배고파</a>
+            <a href="2">지금은</a>
+            <a href="3">먹어야해</a>
+        </ul>
+      </li> 
+      <li><a href="#2">메뉴2</a></li>
+      <li><a href="#3">메뉴3</a></li>
+      <li><a href="#4">메뉴4</a></li>
+      <li><a href="#5">메뉴5</a></li>
     </ul>
   </nav>
   <article class="article-bg">
@@ -35,13 +54,14 @@
     <div class="box-test">블럭2</div>
     <div class="box-test">블럭3</div>
   </article>
-
+  <a name="2"></a>
   <article class="article-2nd-bg">
     <h2>9월27일 : image 삽입</h2>
     <img class="image-cropper-50" src="./images/sunset-3309776_640.jpg" alt="첫번째이미지">
     <img class="image-cropper-25" src="./images/sunset-3309776_640.jpg" alt="두번째이미지">
     <img class="image-cropper-5" src="./images/sunset-3309776_640.jpg" alt="세번째이미지">
   </article>
+  <a name="3"></a>
   <article>3rd article</article>
   <article class="article-3nd-bg">
       <h2>9월 27일: audio, video 태그 사용하기</h2>
@@ -61,12 +81,14 @@
           </video>
       </section>
   </article>
+  <a name="4"></a>
   <article class="article-4nd-bg">
     <h2>9월 27일 유튜브 삽입</h2>
     <section>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/AJ0SUOLwIgM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
   </article>
+  <a name="5"></a>
   <article class="article-5nd-bg">
   <body>
         <table style= "margin: auto; text-align: center;" border = 1>
