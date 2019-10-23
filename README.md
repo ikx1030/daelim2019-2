@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-daelim2019-2
 =======
 # 양윤혁 : daelim2019-2 project
 ## 2019.10.11
@@ -13,5 +11,3 @@ daelim2019-2
 7
 border test( v0.7.0 )
 v0.5.0
-
->>>>>>> Stashed changes
