@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+        //이벤트를 연결합니다
+        $(document).ready(function () {
+            //속성을 추출합니다
+            // var src = $("img").attr('alt', "네이버 이미지");
+            // var src = $("img").attr('src','http://imgnews.naver.net/image/041/2013/04/07/yoyo201304071517060_59_20130407152112.jpg');
+            // var src = $("img").attr('width', '200px');
+            // var src = $("img").attr('height', '200px');
+            var src = $("img").attr({
+                alt: '네이버이미지',
+                src: 'http://post.phinf.naver.net/MjAxODAxMjlfNzYg/MDAxNTE3MjE3OTE4MzYw.F7Ym03UaAun24_x-wuCjdn2RUl2jxqree5WiuEE3cR0g.R5GUZgpa2Cqp0XLaRzneJmnoSsrleoe2MXAp632RjNgg.JPEG/Ixr1RZn5c7fWdXZfdmUWCtK5orY8.jpg',
+                width: 400,
+                height: 400,
+            })
+        });
+        //출력합니다
+            // $('body').append(src);
+    </script>
+</head>
+<body>
+    <img>
+    <img>
+    <img>
+</body>
+</html>
