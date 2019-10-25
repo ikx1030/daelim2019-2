@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DomBasic</title>
+    <script>
+        setInterval(function () {
+            var date = new Date();
+            var currenYear = date.getFullYear();
+            var currenMonth = date.getMonth();
+            var currentHours = date.getHours();
+            var currenMinutes = date.getMinutes();
+            var currenSeconds = date.getSeconds();
+            var dateAll = date + "<br />" +
+                        currenYear + "년 <br/>" +
+                        currenMonth + "월 <br/>" +
+                        currentHours + "시 <br/>" +
+                        currenMinutes + "분 <br/>" +
+                        currenSeconds + "초 <br/>" +
+                        " 입니다. ";
+            document.body.innerHTML = dateAll; // dateAll 출력
+        }, 1000);                              // 1초간격 
+    </script>
+    <style>
+        body{
+            font-size: 25pt;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
