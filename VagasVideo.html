@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src= "https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="vegas.min.js"></script>
+  <link rel="stylesheet" href="vegas.min.css">
+</head>
+
+<body>
+    <script>
+$("#example, body").vegas({
+  slides: [
+        {   src: 'images/a1.jpg' },
+        {   src: 'images/a2.jpg',
+            video: {
+                src: [
+                    'video/v1.mp4',
+                    'video/v2.mp4',
+                    'video/v3.mp4'
+                ],
+                loop: false,
+                mute: true
+            }
+        }
+    ]
+});
+</script> 
+</body>
+</html>
