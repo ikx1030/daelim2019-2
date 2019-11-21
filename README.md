@@ -1,6 +1,6 @@
 =======
 # 양윤혁 : daelim2019-2 project
-## 2019.11.08
+## 2019.11.15
 #### index.html / main.css 생성
 1. 주석 추가 <br>
 2. 기본구조 삽입
@@ -10,5 +10,6 @@
 6. 1st article : margin, padding, 
 7. Restart
 8. 무한 스크롤, 이미지, 동영상 추가
+9. bs 추가
 border test( v0.9.0 )
 v0.9.0
